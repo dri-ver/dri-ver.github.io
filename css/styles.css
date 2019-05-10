@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0 1px 2px 0 rgba(59, 59, 59, 0.2), 0 3px 10px 0 rgba(63, 63, 63, 0.19);  
+}
+
+#header {
+    display: none;
+    position: relative;
+    width: 70%;
+    height: 250px;
+    background-color: rgb(243, 243, 243);
+    margin: 15px auto;
+}
