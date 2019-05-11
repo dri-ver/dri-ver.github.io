@@ -1,5 +1,5 @@
 body {
-    background-color: #93867F;
+    background-color: rgb(199, 190, 185);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: box-shadow 0.5s;
-    background-color: #5E5D5C;
+    background-color: rgb(138, 136, 135);
 }
 
 .card:hover {
