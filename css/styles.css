@@ -1,7 +1,9 @@
 body {
     background-color: rgb(202, 202, 202);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* CARD CLASS */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: box-shadow 0.5s;
@@ -11,10 +13,76 @@ body {
     box-shadow: 0 1px 2px 0 rgba(59, 59, 59, 0.2), 0 3px 10px 0 rgba(63, 63, 63, 0.19);  
 }
 
-#header {
-    display: none;
+/* HEADER */
+#header-wrapper {
+    opacity: 0;
+    display: block;
     width: 70%;
     height: 250px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(218, 218, 218);
     margin: 15px auto;
+    padding: 10px;
+}
+
+#header-img {
+    height: 100%;
+    width: 24%;
+}
+
+#header-text-wrapper {
+    display: inline-block;
+    height: 100%;
+    width: 74.5%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+#header-text-wrapper h1 {
+    font-size: 50px;
+}
+
+#header-text-wrapper h2 {
+    display: block;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+/* WRAPPER FOR PERSONAL CONTENT */
+#personal-content-wrapper {
+    /*background-color: red;*/
+    display: block;
+    margin-top: 20px;
+    width: 71.25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BIO */
+#bio-wrapper {
+    opacity: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(218, 218, 218);
+    margin-right: 20px;
+}
+
+/* SPOTIFY */
+#spotify-player-wrapper {
+    opacity: 0;
+    width: 320px;
+    height: 400px;
+    display: inline-block;
+    background-color: rgb(218, 218, 218);
+}
+
+#spotify-player {
+    position: absolute;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
 }
