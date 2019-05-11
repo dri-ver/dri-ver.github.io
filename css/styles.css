@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(202, 202, 202);
+    background-color: #93867F;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* CARD CLASS */
 .card {
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: box-shadow 0.5s;
+    background-color: #5E5D5C;
 }
 
 .card:hover {
@@ -19,7 +21,6 @@ body {
     display: block;
     width: 70%;
     height: 250px;
-    background-color: rgb(218, 218, 218);
     margin: 15px auto;
     padding: 10px;
 }
@@ -27,6 +28,7 @@ body {
 #header-img {
     height: 100%;
     width: 24%;
+    border-radius: 10px;
 }
 
 #header-text-wrapper {
@@ -66,8 +68,6 @@ body {
     vertical-align: top;
     width: 30%;
     height: 400px;
-    background-color: rgb(218, 218, 218);
-    margin-right: 20px;
 }
 
 #bio-wrapper p {
@@ -76,13 +76,41 @@ body {
     line-height: 25px;
 }
 
+/* TECHNICAL SKILLS */
+#technical-skills-wrapper {
+    opacity: 0;
+    display: inline-block;
+    width: 37.85%;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#technical-skills-wrapper h1 {
+    margin: 30px;
+    font-size: 28px;
+}
+
+#technical-skills-wrapper table {
+    table-layout: fixed;
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 100%;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+#technical-skills-wrapper table td {
+    font-weight: bold;
+}
+
 /* SPOTIFY */
 #spotify-player-wrapper {
     opacity: 0;
     width: 320px;
     height: 400px;
     display: inline-block;
-    background-color: rgb(218, 218, 218);
 }
 
 #spotify-player {
