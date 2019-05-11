@@ -1,3 +1,3 @@
-# dri-ver.github.io
+# logancrocker.github.io
 
 My personal website
