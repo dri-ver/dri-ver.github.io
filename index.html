@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>The Warehouse</title>
+        <title>Logan's Warehouse</title>
     </head>
     <body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -10,16 +10,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <div class="container">
-            <div class="card small horizontal hoverable gray">
+          <!-- Header -->
+            <div class="card small horizontal hoverable">
                 <div class="card-image">
-                    <img src="./img/IMG_1908.JPEG" alt="" class="circle responsive-img" >
+                    <img src="./img/IMG_1908.JPEG" alt="Me" class="circle responsive-img" >
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
                         <h1 class="center-align">Hi! I'm Logan.</h1>
                         <h5 class="center-align">Full Stack Software Engineer | Data Scientist | DJ</h2>
                         <div class="card-action">
-                            <a href="LoganCrocker.pdf">Resume</a>
+                            <a href="LoganCrocker.pdf" target="_blank">Resume</a>
                             <a href="https://www.linkedin.com/in/logan-crocker-111317145/">LinkedIn</a>
                             <a href="https://open.spotify.com/user/1265294423?si=rlA3OkS-TTOVBY3DC_2zvg">Spotify</a>
                             <a href="https://github.com/logancrocker">Github</a>
@@ -28,56 +29,84 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s4 card small hoverable" style="height: 370px;">
-                    <p class="flow-text">&nbsp&nbsp&nbsp&nbsp&nbspIn December 2018 I received a <b>B.S. In Computer Science</b> 
-                                        at UC Riverside.
-                    </p>
-                    <p class="flow-text">&nbsp&nbsp&nbsp&nbsp&nbspWhen I'm not writing software, I enjoy soccer, being a DJ, 
-                                         EDM, and good sushi.
-                    </p>
-                </div>
-                <div class="col s4 card small hoverable" style="height: 370px;">
-                    <table class="responsive-table centered">
-                        <h5>Languages</h5>
-                        <tr>
-                            <td>C/C++</td>
-                            <td>Python</td>
-                            <td>JavaScript</td>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>CSS</td>
-                            <td>Java</td>
-                        </tr>
-                    </table>
-                    <table class="responsive-table centered">
-                        <h5>Technologies + Frameworks</h5>
-                        <tr>
-                            <td>SQL</td>
-                            <td>Express.js</td>
-                            <td>React.js</td>
-                        </tr>
-                        <tr>
-                            <td>SciPy</td>
-                            <td>Android</td>
-                            <td>Bash</td>
-                        </tr>
-                        <tr>
-                            <td>Git</td>
-                            <td>Tableau</td>
-                            <td>Firebase</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col s4 card small hoverable" style="height: 370px;">
-                    <iframe src="https://open.spotify.com/embed/user/1265294423/playlist/1aVCa9E3Q403B5qNaZvSmK" 
-                            width="100%" 
-                            height="100%" 
-                            frameborder="0" 
-                            allowtransparency="true" 
-                            allow="encrypted-media">
-                    </iframe>
-                </div>
+              <!-- bio -->
+              <div class="col s4">
+                    <h4 class="center">About Me</h4>
+                    <div class="col-content center">
+                        <div class="col card small hoverable" style="height: 370px;">
+                            <h5>
+                              In December 2018 I received a <b>B.S. In Computer Science</b> 
+                              at UC Riverside.
+                            </h5>
+                            <h5>
+                              When I'm not writing software, I enjoy soccer, being a DJ, 
+                              EDM, and good sushi.
+                            </h5>
+                            <h5>
+                              <b>
+                                I am currently seeking employment as a Junior software engineer.
+                              </b>
+                            </h5>
+                        </div>
+                    </div>
+              </div>
+              <!-- technical skills -->
+              <div class="col s4">
+                    <h4 class="center">Technical Skills</h4>
+                    <div class="col-content">
+                        <div class="col card small hoverable" style="height: 370px;">
+                            <table class="responsive-table centered">
+                                <h5>Languages</h5>
+                                <tr>
+                                    <td>C/C++</td>
+                                    <td>Python</td>
+                                    <td>JavaScript</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>CSS</td>
+                                    <td>Java</td>
+                                </tr>
+                            </table>
+                            <table class="responsive-table centered">
+                                <h5>Technologies + Frameworks</h5>
+                                <tr>
+                                    <td>SQL</td>
+                                    <td>Express.js</td>
+                                    <td>React.js</td>
+                                </tr>
+                                <tr>
+                                    <td>SciPy</td>
+                                    <td>Android</td>
+                                    <td>Bash</td>
+                                </tr>
+                                <tr>
+                                    <td>Git</td>
+                                    <td>Tableau</td>
+                                    <td>Firebase</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+              </div>
+              <!-- playlist -->
+              <div class="col s4">
+                    <div class="col-content">
+                        <h4 class="center">Coding Music</h4>
+                        <div class="col card small hoverable" style="height: 370px;">
+                            <iframe src="https://open.spotify.com/embed/user/1265294423/playlist/1aVCa9E3Q403B5qNaZvSmK" 
+                                    width="100%" 
+                                    height="100%" 
+                                    frameborder="0" 
+                                    allowtransparency="true" 
+                                    allow="encrypted-media">
+                            </iframe>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="center">Projects</h3>
             </div>
             <div class="card hoverable">
                 <div class="card-content">
